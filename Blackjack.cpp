@@ -1,7 +1,6 @@
 #include <iostream>
 #include <vector>
 #include <algorithm>
-#define INF 3000001
 using namespace std;
 
 int main()
