@@ -30,7 +30,7 @@ public class B1260 {
             Collections.sort(graph[i]);
         }
         // dfs
-        dfs(V, 1);
+        dfs(V);
         for (int i = 0; i < dfsArr.size(); i++)
             System.out.print(dfsArr.get(i) + " ");
 
@@ -43,16 +43,12 @@ public class B1260 {
             System.out.print(bfsArr.get(i) + " ");
     }
 
-    public static void dfs(int node, int depth) {
-        if (depth == N) {
-            return;
-        }
-
+    public static void dfs(int node) {
         visit[node] = true;
         dfsArr.add(node);
         for (int i = 0; i < graph[node].size(); i++) {
             if (visit[graph[node].get(i)] == false) {
-                dfs(graph[node].get(i), depth + 1);
+                dfs(graph[node].get(i));
             }
         }
     }
