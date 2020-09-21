@@ -1,5 +1,4 @@
 #include <iostream>
-#define INF 10000000
 using namespace std;
 
 int main()
