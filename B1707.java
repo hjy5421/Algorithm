@@ -48,6 +48,7 @@ public class B1707 {
             else
                 System.out.println("NO");
         }
+        sc.close();
     }
 
     public static void dfs(int node, int token) {

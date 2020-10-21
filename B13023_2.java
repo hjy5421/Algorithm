@@ -29,6 +29,7 @@ public class B13023_2 {
                 break;
         }
         System.out.println(ans);
+        sc.close();
     }
 
     public static void dfs(int i, int depth) {

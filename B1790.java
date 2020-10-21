@@ -40,6 +40,6 @@ public class B1790 {
 
             System.out.println(number.get(k - 1 - left));
         }
-
+        sc.close();
     }
 }

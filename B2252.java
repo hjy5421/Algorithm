@@ -45,6 +45,6 @@ public class B2252 {
             }
 
         }
-
+        sc.close();
     }
 }

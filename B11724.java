@@ -30,6 +30,7 @@ public class B11724 {
         }
 
         System.out.println(answer);
+        sc.close();
     }
 
     public static void dfs(int node) {

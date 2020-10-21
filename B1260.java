@@ -41,6 +41,7 @@ public class B1260 {
         bfs(V);
         for (int i = 0; i < bfsArr.size(); i++)
             System.out.print(bfsArr.get(i) + " ");
+        sc.close();
     }
 
     public static void dfs(int node) {

@@ -33,5 +33,6 @@ public class B1654 {
                 left = mid + 1;
         }
         System.out.println(right);
+        sc.close();
     }
 }

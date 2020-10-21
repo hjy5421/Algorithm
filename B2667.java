@@ -39,6 +39,8 @@ public class B2667 {
             else
                 System.out.println(answer[i]);
         }
+
+        sc.close();
     }
 
     public static void dfs(int y, int x) {

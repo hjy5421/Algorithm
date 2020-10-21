@@ -43,7 +43,7 @@ public class B1766 {
             }
 
         }
-
+        sc.close();
     }
 
 }
