@@ -1,4 +1,4 @@
-package Algorithm;
+package Algorithm.PriorQueue;
 
 import java.util.*;
 
@@ -8,6 +8,7 @@ public class B1927 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int N = sc.nextInt();
+        sc.close();
         PriorityQueue<Integer> pq = new PriorityQueue<>();
         for (int i = 0; i < N; i++) {
             int input = sc.nextInt();

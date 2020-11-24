@@ -1,6 +1,5 @@
-package Algorithm;
+package Algorithm.UnionFind;
 
-import java.io.*;
 import java.util.*;
 
 public class B4195 {
@@ -64,6 +63,6 @@ public class B4195 {
         for (int k = 0; k < answer.size(); k++) {
             System.out.println(answer.get(k));
         }
-
+        sc.close();
     }
 }

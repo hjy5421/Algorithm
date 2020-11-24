@@ -1,4 +1,4 @@
-package Algorithm;
+package Algorithm.String;
 
 import java.util.*;
 
@@ -12,5 +12,6 @@ public class B11720 {
             sum += (int) (num.charAt(i) - '0');
         }
         System.out.println(sum);
+        sc.close();
     }
 }

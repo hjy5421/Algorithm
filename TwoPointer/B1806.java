@@ -1,4 +1,4 @@
-package Algorithm;
+package Algorithm.TwoPointer;
 
 import java.util.*;
 

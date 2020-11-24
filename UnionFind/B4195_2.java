@@ -1,4 +1,4 @@
-package Algorithm;
+package Algorithm.UnionFind;
 
 import java.util.*;
 
@@ -80,6 +80,7 @@ public class B4195_2 {
         for (int i = 0; i < answer.size(); i++) {
             System.out.println(answer.get(i));
         }
+        sc.close();
 
     }
 }

@@ -1,4 +1,4 @@
-package Algorithm;
+package Algorithm.UnionFind;
 
 import java.util.*;
 import java.io.*;

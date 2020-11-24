@@ -40,6 +40,7 @@ public class B1939 {
             }
         }
         System.out.println(answer);
+        sc.close();
     }
 
     public static boolean dfs(int start, int end, long val, boolean[] visit) {

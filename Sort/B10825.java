@@ -1,4 +1,4 @@
-package Algorithm;
+package Algorithm.Sort;
 
 import java.util.*;
 
@@ -31,5 +31,6 @@ public class B10825 {
         for (int i = 0; i < scores.length; i++) {
             System.out.println(scores[i][0]);
         }
+        sc.close();
     }
 }
