@@ -14,7 +14,6 @@ public class B1912 {
         int max = Integer.MIN_VALUE;
         for (int i = 1; i < n + 1; i++) {
             num[i] = Integer.parseInt(st.nextToken());
-            sum[i] = num[i];
             max = Math.max(max, num[i]);
         }
 
@@ -29,8 +28,8 @@ public class B1912 {
 
         // 정답
         /*
-         * for(int i=1;i<n;i++){ sum[i]=Math.max(sum[i-1]+num[i],num[i]);
-         * max=Math.max(max,sum[i]); }
+         * sum[1]=num[1]; for(int i=2;i<n+1;i++){
+         * sum[i]=Math.max(sum[i-1]+num[i],num[i]); max=Math.max(max,sum[i]); }
          */
         System.out.println(max);
     }
