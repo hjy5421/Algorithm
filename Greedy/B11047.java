@@ -1,4 +1,4 @@
-package Algorithm.Greedy;
+package Greedy;
 
 import java.util.*;
 
@@ -20,5 +20,6 @@ public class B11047 {
             }
         }
         System.out.println(answer);
+        sc.close();
     }
 }

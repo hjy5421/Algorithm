@@ -1,4 +1,4 @@
-package Algorithm.TopologySort;
+package TopologySort;
 
 import java.util.*;
 

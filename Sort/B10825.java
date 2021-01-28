@@ -1,4 +1,4 @@
-package Algorithm.Sort;
+package Sort;
 
 import java.util.*;
 

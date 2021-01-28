@@ -1,4 +1,4 @@
-package Algorithm.BackTracking;
+package BackTracking;
 
 import java.util.*;
 

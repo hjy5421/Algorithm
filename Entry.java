@@ -1,5 +1,3 @@
-package Algorithm;
-
 import java.util.*;
 
 public class Entry {

@@ -1,5 +1,3 @@
-package Algorithm;
-
 import java.util.*;
 
 public class StringCompare {
@@ -31,5 +29,12 @@ public class StringCompare {
             String s = (String) it.next();
             System.out.println(hm.get(s));
         }
+
+        int n = 0;
+        String s = "ddd" + n;
+        System.out.println(s);
+
+        String sss = "[403]";
+        System.out.println(sss.substring(1, sss.length() - 1));
     }
 }

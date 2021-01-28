@@ -1,4 +1,4 @@
-package Algorithm.String;
+package String;
 
 import java.util.*;
 

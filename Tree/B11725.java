@@ -1,4 +1,4 @@
-package Algorithm.Tree;
+package Tree;
 
 import java.util.*;
 

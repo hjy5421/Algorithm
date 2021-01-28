@@ -1,4 +1,4 @@
-package Algorithm.DP;
+package DP;
 
 import java.util.*;
 

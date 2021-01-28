@@ -1,4 +1,4 @@
-package Algorithm.PriorQueue;
+package PriorQueue;
 
 import java.util.*;
 

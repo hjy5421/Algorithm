@@ -1,4 +1,4 @@
-package Algorithm.DfsBfs;
+package DfsBfs;
 
 import java.util.*;
 

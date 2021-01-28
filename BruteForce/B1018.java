@@ -1,4 +1,4 @@
-package Algorithm.BruteForce;
+package BruteForce;
 
 import java.io.*;
 
