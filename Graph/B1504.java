@@ -1,13 +1,15 @@
+package Graph;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.*;
 
-class Node implements Comparable<Node> {
+class Road implements Comparable<Road> {
     int node;
     int weight;
 
-    Node(int node, int weight) {
+    Road(int node, int weight) {
         this.node = node;
         this.weight = weight;
     }
@@ -21,13 +23,13 @@ class Node implements Comparable<Node> {
     }
 
     @Override
-    public int compareTo(Node n) {
+    public int compareTo(Road n) {
         return weight - n.weight;
     }
 }
 
 public class B1504 {
-    static List<Node>[] list;
+    static List<Road>[] list;
     static int[] dist;
     static int[] v = new int[2];
     static final int INF = 200_000_001;
@@ -49,8 +51,8 @@ public class B1504 {
             int a = Integer.parseInt(st.nextToken());
             int b = Integer.parseInt(st.nextToken());
             int c = Integer.parseInt(st.nextToken());
-            list[a].add(new Node(b, c));
-            list[b].add(new Node(a, c));
+            list[a].add(new Road(b, c));
+            list[b].add(new Road(a, c));
         }
 
         st = new StringTokenizer(br.readLine());
@@ -74,18 +76,18 @@ public class B1504 {
 
     public static int dijkstra(int start, int end) {
         Arrays.fill(dist, INF);
-        PriorityQueue<Node> pq = new PriorityQueue<>();
-        pq.add(new Node(start, 0));
+        PriorityQueue<Road> pq = new PriorityQueue<>();
+        pq.add(new Road(start, 0));
         dist[start] = 0;
 
         while (!pq.isEmpty()) {
             int cur = pq.poll().getNode();
 
-            for (Node node : list[cur]) {
+            for (Road node : list[cur]) {
                 int newDist = dist[cur] + node.getWeight();
                 if (newDist < dist[node.getNode()]) {
                     dist[node.getNode()] = newDist;
-                    pq.add(new Node(node.getNode(), dist[node.getNode()]));
+                    pq.add(new Road(node.getNode(), dist[node.getNode()]));
                 }
             }
         }

@@ -1,3 +1,5 @@
+package ETC;
+
 import java.util.*;
 
 public class StringCompare {
@@ -16,6 +18,14 @@ public class StringCompare {
 
         for (int i = 0; i < arr.length; i++) {
             System.out.println(arr[i]);
+        }
+
+        List<String> route = new ArrayList<>();
+        route.add("ICN STO ATL SFO ");
+        route.add("ICN ATL STO SFO ");
+        Collections.sort(route);
+        for (int i = 0; i < route.size(); i++) {
+            System.out.println(route.get(i));
         }
 
         Map<String, String> hm = new HashMap<>();
