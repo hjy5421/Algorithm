@@ -1,4 +1,4 @@
-package ETC;
+package Function;
 
 import java.util.*;
 

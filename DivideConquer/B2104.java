@@ -25,7 +25,7 @@ public class B2104 {
             return num[start] * num[start];
         else {
             int mid = (start + end) / 2;
-            long ret = Math.max(divide(mid + 1, end, num), divide(start, mid - 1, num));
+            long ret = Math.max(divide(mid + 1, end, num), divide(start, mid, num));
 
             long sum = num[mid];
             long min = num[mid];
